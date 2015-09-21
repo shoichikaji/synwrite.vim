@@ -6,6 +6,7 @@ Current supporting languages are:
 * perl
 * perl6
 * ruby
+* python
 * bash
 
 You can check syntax by `:W` command.
