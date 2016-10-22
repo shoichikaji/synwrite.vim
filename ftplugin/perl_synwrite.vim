@@ -28,7 +28,7 @@ let s:default_perl_synwrite_au = 0
 "" execute the given do_command if the buffer is syntactically correct perl
 "" -- or if do_anyway is true
 function! s:PerlSynDo(do_anyway,do_command)
-  let command = "!perl -wc"
+  let command = "!perl -Mwarnings -c"
 
   " resolve local/lib/perl5/ and lib/ directories path,
   " and append them to @INC
